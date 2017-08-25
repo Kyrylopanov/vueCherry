@@ -1,0 +1,48 @@
+.container {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.logo {
+  margin-bottom: 40px;
+}
+
+.is-danger {
+  color: #e10909;
+  font-size: 15px;
+}
+
+.form-control {
+  height: 55px;
+  border-radius: 0;
+  font-size: 18px;
+  color: #ccc;
+  background-color: #f1f1f1;
+  border: 1px solid #f1f1f1;
+  box-shadow: none;
+}
+
+.form-control.input {
+  color: #000;
+}
+
+.form-control.input.is-danger {
+  border: 1px solid #e10909;
+}
+
+.form-group label {
+  font-size: 16px;
+}
+
+.btn {
+  height: 65px;
+  width: 100%;
+  color: #fff;
+  background-color: #e10909;
+  -moz-border-radius: 35px;
+  -webkit-border-radius: 35px;
+  font-size: 20px;
+  margin-top: 35px;
+}
+.btn.focus, .btn:focus, .btn:hover {
+  color: #fff;
+}
